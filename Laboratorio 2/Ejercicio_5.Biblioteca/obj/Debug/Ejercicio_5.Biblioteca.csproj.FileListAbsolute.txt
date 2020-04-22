@@ -1,0 +1,6 @@
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_5.Biblioteca\bin\Debug\Ejercicio_5.Biblioteca.dll
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_5.Biblioteca\bin\Debug\Ejercicio_5.Biblioteca.pdb
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_5.Biblioteca\obj\Debug\Ejercicio_5.Biblioteca.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_5.Biblioteca\obj\Debug\Ejercicio_5.Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_5.Biblioteca\obj\Debug\Ejercicio_5.Biblioteca.dll
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_5.Biblioteca\obj\Debug\Ejercicio_5.Biblioteca.pdb

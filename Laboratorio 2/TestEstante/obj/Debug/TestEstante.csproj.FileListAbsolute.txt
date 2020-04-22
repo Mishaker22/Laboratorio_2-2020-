@@ -1,0 +1,5 @@
+C:\Users\miche\source\repos\Ejercicio_05 Davila\TestEstante\obj\Debug\TestEstante.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_05 Davila\TestEstante\obj\Debug\TestEstante.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\Laboratorio 2\Ejercicio_05 Davila\TestEstante\obj\Debug\TestEstante.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\Laboratorio 2\TestEstante\obj\Debug\TestEstante.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\Laboratorio 2\TestEstante\obj\Debug\TestEstante.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+C:\Users\miche\source\repos\lab2\EntidadesPizzeria\bin\Debug\EntidadesPizzeria.dll
+C:\Users\miche\source\repos\lab2\EntidadesPizzeria\bin\Debug\EntidadesPizzeria.pdb
+C:\Users\miche\source\repos\lab2\EntidadesPizzeria\obj\Debug\EntidadesPizzeria.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\lab2\EntidadesPizzeria\obj\Debug\EntidadesPizzeria.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\lab2\EntidadesPizzeria\obj\Debug\EntidadesPizzeria.dll
+C:\Users\miche\source\repos\lab2\EntidadesPizzeria\obj\Debug\EntidadesPizzeria.pdb

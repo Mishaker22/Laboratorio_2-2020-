@@ -1,0 +1,14 @@
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\bin\Debug\pizzeriaFormulario.exe.config
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\bin\Debug\pizzeriaFormulario.exe
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\bin\Debug\pizzeriaFormulario.pdb
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\bin\Debug\EntidadesPizzeria.dll
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\bin\Debug\EntidadesPizzeria.pdb
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.Form1.resources
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.frmCliente.resources
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.Properties.Resources.resources
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.csproj.GenerateResource.cache
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.csproj.CopyComplete
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.exe
+C:\Users\miche\source\repos\lab2\pizzeriaFormulario\obj\Debug\pizzeriaFormulario.pdb
