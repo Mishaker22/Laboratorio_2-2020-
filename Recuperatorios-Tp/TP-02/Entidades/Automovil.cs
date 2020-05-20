@@ -26,7 +26,7 @@ namespace Entidades
         public Automovil(EMarca marca, string chasis, ConsoleColor color)
             : this(marca, chasis, color,ETipo.Monovolumen)
         {
-            this.tipo = ETipo.Monovolumen;
+            
         }
         /// <summary>
         /// setea el tipo 
