@@ -48,6 +48,7 @@
     <Compile Include="Docente.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Personal.cs" />
+    <Compile Include="PersonaSinDni.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Responsable.cs" />
   </ItemGroup>

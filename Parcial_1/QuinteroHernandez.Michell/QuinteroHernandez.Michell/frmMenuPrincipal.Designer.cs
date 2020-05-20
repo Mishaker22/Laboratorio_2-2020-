@@ -297,6 +297,8 @@
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(667, 328);
+            this.MinimumSize = new System.Drawing.Size(667, 328);
             this.Name = "frmMenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.FormMenuPrincipal_Load);

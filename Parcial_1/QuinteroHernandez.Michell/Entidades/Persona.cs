@@ -37,8 +37,12 @@ namespace Entidades
         /// </summary>
         public int Dni
         {
-            get { return this.dni; }
-            set { this.dni = value; }
+            
+            get { 
+                return this.dni; }
+            set {
+                ValidarPersonasSinDni(value);
+                this.dni = value; }
         }
         /// <summary>
         /// retorna true o false en caso de que lo sea, lo setea
@@ -94,6 +98,13 @@ namespace Entidades
             mensaje.AppendLine(", " + Dni.ToString());
 
             return mensaje.ToString();
+        }
+        public void ValidarPersonasSinDni(int value)
+        {
+            if (value < 1000000)
+            {
+                throw new PersonaSinDni("DNI Incorrecto");
+            }
         }
         #endregion
 

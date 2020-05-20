@@ -20,30 +20,26 @@ namespace QuinteroHernandez.Michell
         bool flagCarga = false;
         bool flagCarga2 = false;
         bool flagCarga3 = false;
-        private Alumno alumno;
+        private object aula11;
+
         public frmMenuPrincipal()
         {
             InitializeComponent();
-
+            
         }
-
         private void FormMenuPrincipal_Load(object sender, EventArgs e)
         {
             
             Bitmap img = new Bitmap(Application.StartupPath + @"\fondos\perro.JPG");
             this.BackgroundImage = img;
-            this.BackgroundImageLayout = ImageLayout.Stretch;
-            aula = new Aula();
-            
+            this.BackgroundImageLayout = ImageLayout.Stretch;             
         }
-       
+        
         public Aula Aula
         {
             get { return aula; }
             set { aula = value; }
         }
-
-
         private void recaudacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -64,12 +60,11 @@ namespace QuinteroHernandez.Michell
             }
             else
             {
-                flagCarga2 = CargarPersonas();
+                flagCarga2 = CargarNoDocentes();
 
             }
         }
-
-        private void datosAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
+        public void CargarAlumnosBoton()
         {
             if (flagCarga3)
             {
@@ -80,6 +75,10 @@ namespace QuinteroHernandez.Michell
                 flagCarga3 = CargarPersonas();
 
             }
+        }
+        private void datosAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CargarAlumnosBoton(); 
         }
 
         private void informacionDePadresToolStripMenuItem_Click(object sender, EventArgs e)
@@ -167,7 +166,7 @@ namespace QuinteroHernandez.Michell
                 //{
                 //    rtcMostrarAula.Text = aula.Alumnos.ToString();
                 //}
-                       
+
             }
             else
             {
@@ -197,8 +196,7 @@ namespace QuinteroHernandez.Michell
             }
 
         }
-
-        private void datosDocentesToolStripMenuItem_Click(object sender, EventArgs e)
+        public void CargarDocentesBoton()
         {
             if (flagCarga)
             {
@@ -206,12 +204,17 @@ namespace QuinteroHernandez.Michell
             }
             else
             {
-                flagCarga = CargarPersonas();
-                
+                flagCarga = CargarDocentes();
+
             }
-            
         }
-        public bool CargarPersonas()
+
+        public void datosDocentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            CargarDocentesBoton();
+        }
+        public bool CargarDocentes()
         {
             #region docentes
 
@@ -227,6 +230,11 @@ namespace QuinteroHernandez.Michell
             Listas.listaDocentes.Add(new Docente(" richi ", " rey ", 14785, false, tarde, tarde1, 350));
             Listas.listaDocentes.Add(new Docente(" Paquita ", " La del barrio ", 14785, false, tarde, tarde1, 350));
             #endregion
+            return true;
+        }
+        public bool CargarPersonas()
+        {
+           
             #region Alumnos
             r1 = new Responsable("Daniel", "Gonzalez", 123654872, false, EParentesco.Padre, "11234568");
             r2 = new Responsable("Nubia", "Hernandez", 95825136, true, EParentesco.Madre, "11234568");
@@ -289,9 +297,18 @@ namespace QuinteroHernandez.Michell
             Listas.listaAlumnos.Add(new Alumno("Kassi", "Kenealy", 046136466, true, 248, 49, r1, EColores.Amarillo));
             Listas.listaAlumnos.Add(new Alumno("Langston", "Skerman", 746234537, true, 300, 50, r1, EColores.Rojo));
             #endregion
+            return true;
+        }
+        public bool CargarNoDocentes()
+        {
             #region No docentes
+            DateTime mañana = new DateTime(2020, 05, 09, 07, 30, 00);
+            DateTime mañana1 = new DateTime(2020, 05, 09, 12, 59, 00);
+            DateTime tarde = new DateTime(2020, 05, 09, 13, 00, 00);
+            DateTime tarde1 = new DateTime(2020, 05, 09, 18, 30, 00);
 
-           
+
+
             mañana.ToString("HH:mm");
             mañana1.ToString("HH:mm");
             tarde.ToString("HH:mm");

@@ -95,6 +95,13 @@ namespace Entidades
             sb.Append("Sala Color :" + ColorSala);
             sb.Append("  -  Turno : " + Turno);
             sb.Append("  -  Docente : " + Docente.MostrarPersona());
+            
+            return sb.ToString();
+        }
+        public string MostrarAula()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Alumnos: " + Alumnos.ToString());
             return sb.ToString();
         }
        

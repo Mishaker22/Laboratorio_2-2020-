@@ -196,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 327);
+            this.ClientSize = new System.Drawing.Size(630, 317);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lsbPariente);
             this.Controls.Add(this.btnAgregarPariente);
@@ -206,7 +206,11 @@
             this.Controls.Add(this.lblLegajo);
             this.Controls.Add(this.lblColorSala);
             this.Controls.Add(this.cmbColorSala);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(646, 356);
+            this.MinimumSize = new System.Drawing.Size(646, 356);
             this.Name = "frmAltaAlumno";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jardin los Pichoncitos: Alta Alumno";
             this.Load += new System.EventHandler(this.frmAltaAlumno_Load);
             this.Controls.SetChildIndex(this.lblNombre, 0);

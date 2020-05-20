@@ -160,7 +160,7 @@
             // lblProfeSelect
             // 
             this.lblProfeSelect.AutoSize = true;
-            this.lblProfeSelect.Location = new System.Drawing.Point(9, 74);
+            this.lblProfeSelect.Location = new System.Drawing.Point(12, 74);
             this.lblProfeSelect.Name = "lblProfeSelect";
             this.lblProfeSelect.Size = new System.Drawing.Size(117, 13);
             this.lblProfeSelect.TabIndex = 20;
@@ -169,11 +169,11 @@
             // lblResultadoProfe
             // 
             this.lblResultadoProfe.AutoSize = true;
-            this.lblResultadoProfe.Location = new System.Drawing.Point(132, 74);
+            this.lblResultadoProfe.Location = new System.Drawing.Point(133, 61);
             this.lblResultadoProfe.Name = "lblResultadoProfe";
-            this.lblResultadoProfe.Size = new System.Drawing.Size(34, 13);
+            this.lblResultadoProfe.Size = new System.Drawing.Size(133, 13);
             this.lblResultadoProfe.TabIndex = 21;
-            this.lblResultadoProfe.Text = "Vacio";
+            this.lblResultadoProfe.Text = "Vacio                                .";
             // 
             // frmAsignarAlumno
             // 
@@ -194,6 +194,8 @@
             this.Controls.Add(this.cmbDocente);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(650, 341);
+            this.MinimumSize = new System.Drawing.Size(650, 341);
             this.Name = "frmAsignarAlumno";
             this.Text = "frmAsignarAlumno";
             this.Load += new System.EventHandler(this.frmAsignarAlumno_Load);

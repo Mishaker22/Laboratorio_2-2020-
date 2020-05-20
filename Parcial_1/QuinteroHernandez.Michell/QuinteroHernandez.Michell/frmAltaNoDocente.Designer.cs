@@ -148,6 +148,9 @@
             this.Controls.Add(this.lblHoraEntrada);
             this.Controls.Add(this.cmbCargo);
             this.Controls.Add(this.lblCargo);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(474, 373);
+            this.MinimumSize = new System.Drawing.Size(474, 373);
             this.Name = "frmAltaNoDocente";
             this.Text = "frmAltaNoDocente";
             this.Load += new System.EventHandler(this.frmAltaNoDocente_Load);
