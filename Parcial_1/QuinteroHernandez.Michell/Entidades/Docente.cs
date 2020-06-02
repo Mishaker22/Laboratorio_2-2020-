@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Docente : Personal
+    public class Docente : Personal, IMensaje<Docente>
     {
         private double valorHora;
 
@@ -41,10 +41,16 @@ namespace Entidades
             get { return this.CalcularSalario(); }
         }
 
-        #endregion
+        public Docente Objeto
+        {
+            get { return this; }
+            set { this.Dni = value.Dni; }
+        }
 
-        #region Constructor
-        public Docente(string name, string lastName, int dni, bool female, DateTime horaEntrada, DateTime horaSalida, double valorHora):base(name, lastName, dni,female,horaEntrada,horaSalida)
+    #endregion
+
+    #region Constructor
+    public Docente(string name, string lastName, int dni, bool female, DateTime horaEntrada, DateTime horaSalida, double valorHora):base(name, lastName, dni,female,horaEntrada,horaSalida)
         {
             this.valorHora = valorHora;
         }
@@ -79,10 +85,15 @@ namespace Entidades
             return " Apellido: " + a.Apellido + " Nombre: " + a.Nombre + " Dni: " + a.Dni.ToString();
         }
 
-        public static explicit operator Docente(List<string> v)
+        public string Mostrar()
         {
-            throw new NotImplementedException();
+            return this.ToString();
         }
+
+        //public static explicit operator Docente(List<string> v)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         #endregion
     }

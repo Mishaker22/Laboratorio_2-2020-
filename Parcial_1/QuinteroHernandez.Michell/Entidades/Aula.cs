@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Aula
+    public class Aula: IMensaje<Aula>
     {
         private EColores colorSala;
         private List<Alumno> listaAlumnos;
@@ -63,6 +63,12 @@ namespace Entidades
             get { return this.listaAlumnos; }
             set { this.listaAlumnos = value; }
         }
+
+        public Aula Objeto
+        {
+            get { return this; }
+            set { this.docente = value.docente; }
+        }
         #endregion
 
         #region Sobrecarga de operador +
@@ -104,7 +110,12 @@ namespace Entidades
             sb.Append("Alumnos: " + Alumnos.ToString());
             return sb.ToString();
         }
-       
+
+        public string Mostrar()
+        {
+            return this.ToString();
+        }
+
         #endregion
 
 
