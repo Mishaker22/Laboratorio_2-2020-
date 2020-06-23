@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_4\\Ejercicio_4.csproj",
+      "projectUniqueName": "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_4\\Ejercicio_4.csproj",
       "projectName": "Ejercicio_4",
-      "projectPath": "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_4\\Ejercicio_4.csproj",
+      "projectPath": "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_4\\Ejercicio_4.csproj",
       "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_4\\obj\\",
+      "outputPath": "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

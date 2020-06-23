@@ -1,0 +1,11 @@
+C:\Users\miche\source\repos\Clase_23\Clase_23\bin\Debug\Clase_23.exe.config
+C:\Users\miche\source\repos\Clase_23\Clase_23\bin\Debug\Clase_23.exe
+C:\Users\miche\source\repos\Clase_23\Clase_23\bin\Debug\Clase_23.pdb
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.Form1.resources
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.Properties.Resources.resources
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.csproj.GenerateResource.cache
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.exe
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.pdb
+C:\Users\miche\source\repos\Clase_23\Clase_23\obj\Debug\Clase_23.Ejercicio.resources

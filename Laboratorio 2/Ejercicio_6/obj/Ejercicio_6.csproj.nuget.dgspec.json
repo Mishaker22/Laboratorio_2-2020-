@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj": {}
+    "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj": {
+    "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj",
         "projectName": "Ejercicio_6",
-        "projectPath": "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_6\\Ejercicio_6.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\source\\repos\\Laboratorio 2\\Ejercicio_6\\obj\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\Laboratorio_2-2020-\\Laboratorio 2\\Ejercicio_6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
